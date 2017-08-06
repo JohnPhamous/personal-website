@@ -14,7 +14,7 @@ h1 {
 
 .section {
   text-align: left;
-  padding: 50px 80px;
+  padding: 50px 25px;
 }
 
 .section-light {
@@ -115,7 +115,8 @@ table {
   background-color: #2d3037;
   width: 75vw;
   height: 60%;
-  border-radius: 2%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   margin: 0;
   /*padding: 1px;*/
 }
@@ -131,6 +132,7 @@ table {
   /*padding: auto;*/
   float: none;
   border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
 }
 
@@ -140,18 +142,18 @@ table {
   width: 15px;
   height: 15px;
   margin: 0 auto;
-  left: -45%;
+  margin-left: 1vw;
   bottom: -20%;
   position: relative;
 }
 
-#yellow {
+/*#yellow {
   background-color: #f0f000;
   border-radius: 100%;
   width: 15px;
   height: 15px;
   margin: 0 auto;
-  left: -38%;
+  margin-left: 3vw;
   bottom: 40%;
   position: relative;
   display: block;
@@ -163,11 +165,11 @@ table {
   width: 15px;
   height: 15px;
   margin: 0 auto;
-  left: -31%;
+  margin-left: 5vw;
   bottom: 99%;
   position: relative;
   display: block;
-}
+}*/
 
 .blinking-cursor {
   font-weight: 100;
