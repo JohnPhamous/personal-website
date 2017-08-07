@@ -98,6 +98,16 @@ table {
   font-size: 0.8em;
 }
 
+#landing {
+  margin-top: 10vh;
+}
+
+#aboutIcon {
+  position: relative;
+  left: 50%;
+  -webkit-filter: invert(100%);
+}
+
 #contact {
   text-align: center;
 }
@@ -135,6 +145,9 @@ table {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin: 0;
+  display: block;
+  max-width: 750px;
+
   /*padding: 1px;*/
 }
 
@@ -146,12 +159,15 @@ table {
   background-color: #f6f8fa;
   margin: auto;
   font-family: monospace;
+  max-width: 750px;
+
   /*padding: auto;*/
   float: none;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-left: 0.2px solid #f6f8fa;
   border-top: 0.2px solid #f6f8fa;
+  display: block;
 }
 
 #red {
