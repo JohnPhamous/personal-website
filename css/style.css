@@ -48,6 +48,8 @@ hr {
   border-bottom: 1px solid rga(0,0,0,0.5);
 }
 
+
+
 .pimg1, .pimg2, .pimg3 {
   position: relative;
   opacity: 1.0;
@@ -65,6 +67,10 @@ a:link {
 a:hover {
   color: #db6b72;
   text-decoration: none;
+}
+
+h3 {
+  text-align: center;
 }
 
 .grow:hover
@@ -86,8 +92,24 @@ a:hover {
   font-weight: 100;
 }
 
+#projects {
+  max-width: 600px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#skills {
+  max-width: 400px;
+  float: right;
+  width: 30%
+}
+
 .tabcontent {
   color: #232323;
+}
+
+#tabs {
+  max-width: 750px;
 }
 
 table {
@@ -96,6 +118,10 @@ table {
 
 .footer-icons {
   font-size: 0.8em;
+}
+
+#termPanel {
+
 }
 
 #landing {
@@ -128,7 +154,6 @@ table {
   /*	background-color: #2691e6; */
   padding-bottom: 2em;
   padding-left: 1em;
-  padding-right: 1em;
   border-radius: 10px;
   font-family: "Oxygen Mono";
   display: block;
@@ -144,7 +169,6 @@ table {
 
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin: 0;
   display: block;
   max-width: 750px;
 
