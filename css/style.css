@@ -93,10 +93,11 @@ h3 {
   font-weight: 100;
 }
 
-#projects {
+.progress-bar {
+}
 
+#projects {
   max-width: 1000px;
-  width: 75%;
   margin: 0 auto;
 }
 
@@ -129,6 +130,7 @@ table {
 }
 
 #landing {
+  margin: 0 auto;
   margin-top: 10vh;
 }
 
