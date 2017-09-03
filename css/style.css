@@ -17,6 +17,10 @@ h3 {
   font-weight: 550;
 }
 
+.section-header {
+  color: black;
+}
+
 .section {
   text-align: left;
   padding: 50px 25px;
@@ -28,7 +32,13 @@ h3 {
 }
 
 .section-dark {
-  background-color: #282e34;
+  background-color: #454552;
+  background-image: url('../img/naturalblack.png');
+  position: relative;
+  opacity: 1.0;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: repeat;
   color: #ddd;
 }
 
@@ -37,19 +47,17 @@ h3 {
   top: 25%;
   width: 100%;
   text-align: center;
-  color: #232323;
+  color: #ecf0f1;
   font-size: 2em;
   letter-spacing: 5px;
   text-transform: uppercase;
 }
 
 hr {
-  width: 55%;
-  border-top: 1px solid #232323;
+  width: 25%;
+  border-top: 1px solid #ecf0f1;
   border-bottom: 1px solid rga(0,0,0,0.5);
 }
-
-
 
 .pimg1, .pimg2, .pimg3 {
   position: relative;
@@ -57,6 +65,11 @@ hr {
   background-position: center;
   background-attachment: fixed;
   background-repeat: repeat;
+  -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 a:link {
@@ -96,6 +109,24 @@ h3 {
 .progress-bar {
 }
 
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+
+.navbar a {
+  color: slategrey;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
 #projects {
   max-width: 1000px;
   margin: 0 auto;
@@ -132,6 +163,9 @@ table {
 
 #landing {
   margin: 0 auto;
+  max-width: 75px;
+  min-width: 10px;
+  max-height: 75px;
   margin-top: 10vh;
 }
 
@@ -264,8 +298,7 @@ table {
 
 
 .pimg1 {
-  background-color: #fffff2;
-  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23de6449' fill-opacity='0.30'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("../img/naturalblack.png");
   min-height: 100%;
 }
 
