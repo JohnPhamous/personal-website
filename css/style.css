@@ -86,7 +86,16 @@ a:link {
 li>a:link {
   font-family: "Oxygen Mono";
   text-decoration: none;
-  color: ghostwhite;
+  color: ghostwhite !important;
+}
+
+li>a:hover {
+  color: #db6b72 !important;
+  text-decoration: none;
+}
+
+li>a:visited {
+  color: ghostwhite !important;
 }
 
 a:hover {
@@ -94,10 +103,7 @@ a:hover {
   text-decoration: none;
 }
 
-li>a:hover {
-  color: #db6b72;
-  text-decoration: none;
-}
+
 
 h3 {
   text-align: center;
@@ -180,7 +186,7 @@ h3 {
 }
 
 .card-img-top#sponsorship {
-  max-width: 45%;
+  max-width: 50%;
   margin: 0 auto;
 }
 
@@ -250,8 +256,8 @@ li.header-icons {
 }
 
 #terminal {
-  margin-bottom: 22%;
-  margin-top: 10%;
+  margin: 0 auto;
+  margin-left: 25%;
 }
 
 #terminal p {
@@ -268,7 +274,7 @@ li.header-icons {
 #screen {
   background-color: #2d3037;
   width: 76vw;
-  height: 60%;
+  height: 70%;
   border-left: 0.5px solid #232323;
   border-bottom: 0.5px solid #232323;
   border-right: 0.3px solid #232323;
@@ -277,6 +283,7 @@ li.header-icons {
   border-bottom-right-radius: 10px;
   display: block;
   max-width: 750px;
+
 
   /*padding: 1px;*/
 }
