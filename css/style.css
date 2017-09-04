@@ -156,13 +156,24 @@ table {
   color: #232323;
 }
 
-.footer-icons {
+.footer-icons a {
+  text-align: center;
   font-size: 1rem;
-  color: #232323;
+  color: ghostwhite;
+  font-family: "Ubuntu Condensed", sans-serif;
+  padding-right: 4%;
 }
 
-#termPanel {
+.footer-icons a:hover {
+  text-align: center;
+  font-size: 1rem;
+  color: #db6b72;
+  font-family: "Ubuntu Condensed", sans-serif;
+}
 
+ul {
+    list-style-type: none;
+    text-align: center;
 }
 
 #landing {
