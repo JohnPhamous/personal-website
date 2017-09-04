@@ -75,13 +75,26 @@ hr {
     user-select: none;
 }
 
+
+
 a:link {
   font-family: "Oxygen Mono";
   text-decoration: none;
-  color: #41d3bd;
+  color: #f8a131;
+}
+
+li>a:link {
+  font-family: "Oxygen Mono";
+  text-decoration: none;
+  color: ghostwhite;
 }
 
 a:hover {
+  color: #db6b72;
+  text-decoration: none;
+}
+
+li>a:hover {
   color: #db6b72;
   text-decoration: none;
 }
@@ -148,20 +161,45 @@ h3 {
 .section-dark {
 }
 
+.card {
+  max-width: 50%;
+  margin: 0 auto;
+  box-shadow: 3px 3px 3px 3px #000;
+  margin-bottom: 10%;
+  background-color: ghostwhite;
+}
+
+.card-img-top#remindmebot {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.card-img-top#website {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.card-img-top#sponsorship {
+  max-width: 45%;
+  margin: 0 auto;
+}
+
+.card-title {
+  color: darkslategray;
+  font-weight: 600;
+  text-align: center;
+}
+
+.card-text {
+  color: darkslategray;
+}
+
 #tabs {
   max-width: 750px;
 }
 
 table {
   color: #232323;
-}
-
-.footer-icons a {
-  text-align: center;
-  font-size: 1rem;
-  color: ghostwhite;
-  font-family: "Ubuntu Condensed", sans-serif;
-  padding-right: 4%;
 }
 
 .footer-icons a:hover {
@@ -171,9 +209,21 @@ table {
   font-family: "Ubuntu Condensed", sans-serif;
 }
 
-ul {
-    list-style-type: none;
-    text-align: center;
+form {
+  max-width: 55%;
+  margin: 0 auto;
+}
+
+ul#links {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+li.header-icons {
+  margin-right: 4%;
+  display: inline;
+  color: ghostwhite;
 }
 
 #landing {
