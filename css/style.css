@@ -49,7 +49,7 @@ h3 {
 
 .ptext {
   position: absolute;
-  top: 25%;
+  top: 40%;
   width: 100%;
   text-align: center;
   color: #ecf0f1;
@@ -95,10 +95,15 @@ li>a:hover {
 }
 
 li>a:visited {
-  color: ghostwhite !important;
+  color: ghostwhite;
 }
 
 a:hover {
+  color: #db6b72;
+  text-decoration: none;
+}
+
+li>a:visited:hover {
   color: #db6b72;
   text-decoration: none;
 }
@@ -207,6 +212,7 @@ ul#links {
   list-style-type: none;
   text-align: center;
   margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 li.header-icons {
