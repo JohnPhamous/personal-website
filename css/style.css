@@ -86,7 +86,7 @@ a:link {
 li>a:link {
   font-family: "Oxygen Mono";
   text-decoration: none;
-  color: ghostwhite !important;
+  color: ghostwhite;
 }
 
 li>a:hover {
@@ -102,8 +102,6 @@ a:hover {
   color: #db6b72;
   text-decoration: none;
 }
-
-
 
 h3 {
   text-align: center;
@@ -160,15 +158,13 @@ h3 {
   width: 20%;
 }
 
-.tabcontent {
-  color: #232323;
-}
-
-.section-dark {
+.col-xs-12 {
+  margin: 0 auto;
 }
 
 .card {
-  max-width: 50%;
+  max-width: 500px;
+  min-width: 100px;
   margin: 0 auto;
   box-shadow: 3px 3px 3px 3px #000;
   margin-bottom: 10%;
@@ -176,17 +172,17 @@ h3 {
 }
 
 .card-img-top#remindmebot {
-  max-width: 50%;
+  max-width: 200px;
   margin: 0 auto;
 }
 
 .card-img-top#website {
-  max-width: 50%;
+  max-width: 200px;
   margin: 0 auto;
 }
 
 .card-img-top#sponsorship {
-  max-width: 50%;
+  max-width: 200px;
   margin: 0 auto;
 }
 
@@ -198,21 +194,7 @@ h3 {
 
 .card-text {
   color: darkslategray;
-}
-
-#tabs {
-  max-width: 750px;
-}
-
-table {
-  color: #232323;
-}
-
-.footer-icons a:hover {
-  text-align: center;
-  font-size: 1rem;
-  color: #db6b72;
-  font-family: "Ubuntu Condensed", sans-serif;
+  padding: 20px;
 }
 
 form {
@@ -250,21 +232,18 @@ li.header-icons {
   text-align: center;
 }
 
-#profile {
-  height: 140px;
-  width: 140px;
-}
-
 #terminal {
   margin: 0 auto;
-  margin-left: 25%;
+  max-width: 700px;
+  margin-top: 15%;
+  margin-bottom: 15%;
 }
 
 #terminal p {
   color: #f6f8fa;
   font-size: 1rem;
   /*	background-color: #2691e6; */
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   padding-left: 1em;
   border-radius: 10px;
   font-family: "Oxygen Mono";
@@ -274,17 +253,14 @@ li.header-icons {
 #screen {
   background-color: #2d3037;
   width: 76vw;
-  height: 70%;
+  height: 50%;
   border-left: 0.5px solid #232323;
   border-bottom: 0.5px solid #232323;
   border-right: 0.3px solid #232323;
-
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: block;
   max-width: 750px;
-
-
   /*padding: 1px;*/
 }
 
