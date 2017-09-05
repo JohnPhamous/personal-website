@@ -83,18 +83,18 @@ a:link {
   color: #f8a131;
 }
 
-li>a:link+li>object>a:link {
+li>a:link {
   font-family: "Oxygen Mono";
   text-decoration: none;
   color: ghostwhite;
 }
 
-li>a:hover+li>object>a:hover {
+li>a:hover{
   color: #db6b72 !important;
   text-decoration: none;
 }
 
-li>a:visited+li>object>a:visited {
+li>a:visited {
   color: ghostwhite;
 }
 
