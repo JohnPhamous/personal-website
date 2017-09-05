@@ -8,3 +8,7 @@ Visit the website [here](http://tumbucon.tech).
 * [Animate on Scroll](https://michalsnik.github.io/aos/) - CSS animations
 * [particles.js](http://vincentgarreau.com/particles.js/) - Javascript particles
 * [Font Awesome](http://fontawesome.io/) - Icon font
+
+## License
+
+* [MIT](https://github.com/ptumb001/ptumb001.github.io/blob/master/LICENSE.md)
