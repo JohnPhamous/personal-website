@@ -1,4 +1,4 @@
-<a href="url"><img src="http://tumbucon.tech/img/mbp.png " align="left" height="48" width="48" ></a>
+<img src="http://tumbucon.tech/img/mbp.png" height="350" width="500" ></a>
 
 # tumbucon.tech
 
