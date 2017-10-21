@@ -231,6 +231,10 @@ li.header-icons {
   color: ghostwhite;
 }
 
+#name {
+ margin-top: 0.5em;
+}
+
 #landing {
   margin: 0 auto;
   max-width: 75px;
