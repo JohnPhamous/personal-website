@@ -363,6 +363,15 @@ li.header-icons {
   }
 }
 
+@media screen and (max-device-width: 1000px) {
+    #name {
+      font-size: 1em;
+    }
+    #belowname {
+        font-size: 0.4em; /* Normally 70px */
+    }
+}
+
 .pimg1 {
   background-image: url("../img/naturalblack.png");
   min-height: 100%;
