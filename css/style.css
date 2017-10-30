@@ -185,6 +185,10 @@ a {
   margin-bottom: 20px;
 }
 
+.no-pic {
+  margin-top: 30px;
+}
+
 .card-img-top#sponsorship {
   max-width: 200px;
   margin: 0 auto;
