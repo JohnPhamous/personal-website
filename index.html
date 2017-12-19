@@ -6,7 +6,10 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110333639-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
 
     gtag('config', 'UA-110333639-1');
@@ -17,51 +20,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Patrick Tumbucon</title>
-  <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono|Roboto+Mono|Ubuntu+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="css/animate.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  
-  <meta name="title" content="Patrick Tumbucon"/>
-  <meta name="description" content="Computer Engineering Student at UC Riverside, Web Developer"/>
-  
+
+  <meta name="title" content="Patrick Tumbucon" />
+  <meta name="description" content="Computer Engineering Student at UC Riverside, Web Developer" />
+
   <meta property="og:title" content="Patrick Tumbucon" />
   <meta property="og:description" content="Computer Engineering Student at UC Riverside, Web Developer" />
   <meta property="og:url" content="tumbucon.tech" />
   <meta property="og:image" content="img/mbp.png" />
-  
+
   <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Person",
-    "name": "Patrick Tumbucon",
-    "jobTitle": "Student",
-    "url": "http://tumbucon.tech",
-    "sameAs": [
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Patrick Tumbucon",
+      "jobTitle": "Student",
+      "url": "http://tumbucon.tech",
+      "sameAs": [
         "https://github.com/ptumb001",
         "https://linkedin.com/in/patricktumbucon",
         "https://instagram.com/pattynextdoor_"
-    ],
-    "gender": "male",
-    "birthDate": "1997-03-17",
-    "image": "img/patricktumbucon.jpg"
-}
-</script>
-<script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "WebSite",
-    "url": "http://tumbucon.tech",
-    "name": "Patrick Tumbucon",
-    "image": "img/patricktumbucon.jpg",
-    "author": {
+      ],
+      "gender": "male",
+      "birthDate": "1997-03-17",
+      "image": "img/patricktumbucon.jpg"
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "url": "http://tumbucon.tech",
+      "name": "Patrick Tumbucon",
+      "image": "img/patricktumbucon.jpg",
+      "author": {
         "@type": "Person",
         "name": "Patrick Tumbucon"
+      }
     }
-}
-</script>
+  </script>
 </head>
 
 <body>
@@ -70,68 +72,49 @@
     <div id="particles-js">
       <div class="ptext">
         <span>
-          <img src="img/galaxy.svg" id="landing" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" class= "img-responsive">
+          <img src="img/user_awake.png" id="landing" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000" class= "img-responsive">
           <h1 data-aos="slide-up" data-aos-duration="750" id="name">Patrick Tumbucon</h1>
           <h4 data-aos="slide-down" data-aos-duration="750" id="belowname">(Freelance Web Developer &&
             <div style="inline-block">Computer Engineering Student);</div></h4>
-            <hr data-aos="flip-right" data-aos-delay="500">
+            <hr id="hr-landing" data-aos="flip-right" data-aos-delay="500">
             <ul id="links" data-aos="slide-up">
-              <li class="header-icons"><a href="https://www.github.com/ptumb001"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-              <li class="header-icons"><a href="https://www.instagram.com/pattynextdoor_/"><i class="fa fa-instagram"  aria-hidden="true"></i></a></li>
-              <li class="header-icons"><a href="https://drive.google.com/open?id=0B-MiYKcZpUmDSEZKREkxM2FfSW8"><i class="fa fa-file-text" aria-hidden="true"></i></a></li>
-              <li class="header-icons"><a href="https://www.linkedin.com/in/patricktumbucon/"><i class="fa fa-linkedin"  aria-hidden="true"></i></a></li>
+              <li class="header-icons"><a  href="https://www.github.com/ptumb001"><i id="github-icon" class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li class="header-icons"><a  href="https://www.instagram.com/pattynextdoor_/"><i id="ig-icon" class="fa fa-instagram"  aria-hidden="true"></i></a></li>
+              <li class="header-icons"><a  href="https://drive.google.com/open?id=0B-MiYKcZpUmDSEZKREkxM2FfSW8"><i id="resume-icon" class="fa fa-file-text" aria-hidden="true"></i></a></li>
+              <li class="header-icons"><a  href="https://www.linkedin.com/in/patricktumbucon/"><i id="linkedin-icon" class="fa fa-linkedin"  aria-hidden="true"></i></a></li>
             </ul>
         </span>
       </div>
     </div>
   </div>
 
-  <section class="section section-dark" id="termPanel">
-    <div class="container">
-      <span>
-        <h2 style="text-align: center; margin-top: 2%;">About</h2>
-      </span>
+  <section class="section" id="termPanel">
+    <!-- <div class="container"> -->
       <div class="row row-centered">
         <div class="col-xs-12">
-          <div id="terminal">
-            <div id="bar">
-              <div id="red"></div>
-            </div>
-            <div id="screen">
-              <p style="padding-top: 1em;">
-                <font style="color: #c179d3">~</font>
-                <font style="color: #abd08f">$</font>
-                <font style="color: #62aeec">pt</font>.displayEducation()
-                <br> <br>
-                <font style="color: gold">UC</font>
-                <font style="color: #62aeec">Riverside</font> (2015-2019)
-              </p>
-              <p style="padding-top: 1em;">
-                <font style="color: #c179d3">~</font>
-                <font style="color: #abd08f">$</font>
-                <font style="color: #62aeec">pt</font>.displayDegree()
-                <br> <br>Computer Engineering, BS
-              </p>
-              <p style="padding-top: 1em;">
-                <font style="color: #c179d3">~</font>
-                <font style="color: #abd08f">$</font>
-                <font style="color: #62aeec">pt</font>.displayHobbies()
-                <br> <br>Cooking, Eating, <a href="https://soundcloud.com/patrick-tumbucon/" style="font-family: Oxygen Mono">Music Production</a>, <br> Linux Ricing, Napping, Petting Dogs
-              </p>
-              <p style="padding-top: 1em;">
-                <font style="color: #c179d3">~</font>
-                <font style="color: #abd08f">$</font>
-                <span class="blinking-cursor">
-                  <font style="font-size: 11">|
-                  </font>
-                </span>
+          <div class="card" id="about-card" data-aos="flip-up" data-aos-duration="500">
+            <img class="card-img-top" src="img/profile.jpg" alt="Card image cap" id="profile">
+            <div class="card-body">
+              <p class="card-text profile-text">
+
+                Hi there, I'm Patrick.
+
+                <br><br> I'm currently a 3rd year Computer Engineering student at UC Riverside.
+
+                <br><br> Like many other CS students, I'm still trying to figure out what I'd like to focus on. I've dabbled
+                around in front-end and back-end web development, web scraping, and Twitter bots.
+
+                <br><br> On the side, I enjoy making websites for small businesses. So far, I've done work for <a href="http://alceeinsurance.com">Alcee Insurance</a>.
+
+                <br><br> This summer, I'm excited to be interning at <a href="https://esri.com">Esri</a>.
               </p>
             </div>
           </div>
+
         </div>
       </div>
 
-    </div>
+    <!-- </div> -->
 
   </section>
 
@@ -143,7 +126,9 @@
     </div>
   </div>
 
-  <section class="section section-dark">
+
+
+  <section class="section" id="card-section">
     <div class="container">
 
       <div class="row row-centered">
@@ -152,8 +137,8 @@
             <img class="card-img-top" id="floof" src="img/steele.jpg" alt="Card image cap">
             <div class="card-block">
               <h4 class="card-title">flooferbot</h4>
-              <p class="card-text">An automated Twitter client that tweets a dog picture every 30 minutes. Built with <code>Dog API</code> and <code>Node.js</code>. Hosted on <code>Heroku</code>. Visit him <a href="http://twitter.com/flooferbot">here</a>.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://github.com/ptumb001/flooferbot">#Source</a></small></p>
+              <p class="card-text">An automated Twitter client that tweets a dog picture every 30 minutes. Built with Dog API and Node.js. Hosted on Heroku. Visit him <a href="http://twitter.com/flooferbot">here</a>. You can also check out the source code <a href="https://github.com/ptumb001/flooferbot">here</a>.</p>
+
             </div>
           </div>
         </div>
@@ -162,29 +147,29 @@
       <div class="row row-centered">
         <div class="col-xs-12">
           <div class="card">
-            <!-- <img class="card-img-top" id="floof" src="img/steele.jpg" alt="Card image cap"> -->
+            <img class="card-img-top" id="floof" src="https://camo.githubusercontent.com/39139548800eaa7d787f6c1a5203e32924f31c7b/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f612f61342f426967435f426f785f537072696e67735f4d6f756e7461696e2e6a70672f32323070782d426967435f426f785f537072696e67735f4d6f756e7461696e2e6a7067" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">The C</h4>
+              <p class="card-text">The C is a web scraper that controls a headless instance of Chromium through Google's Puppeteer API. A work in progress.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row row-centered">
+        <div class="col-xs-12">
+          <div class="card">
             <div class="card-block">
               <h4 class="card-title no-pic">Rshell</h4>
-              <p class="card-text">A linux terminal emulator written in C++ that accepts and parses typical bash commands and connectors. For UCR's CS100 course.</p>
-              <p class="card-text"><small class="text-muted">October 2017 - Present</small></p>
+              <p class="card-text">A linux terminal emulator written in C++ that accepts and parses typical bash commands and connectors. For UCR's CS100 course. Check it out <a href="https://github.com/ptumb001/rshell">here</a>.</p>
             </div>
           </div>
         </div>
       </div>
 
 
-      <div class="row row-centered">
-        <div class="col-xs-12">
-          <div class="card">
-            <img class="card-img-top" id="correlation" src="img/Descending.svg" alt="Card image cap">
-            <div class="card-block">
-              <h4 class="card-title">Correlation and Causation</h4>
-              <p class="card-text">A <code>chart.js</code> visualization comparing highly correlated and highly unrelated data. Inspired by and sourced from <a href="http://tylervigen.com/old-version.html">Tyler Vigen's Spurious Correlations</a>.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://correlation-causation.herokuapp.com/">#Link</a></small></p>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
 
 
@@ -194,8 +179,8 @@
             <img class="card-img-top" id="website" src="img/mbp.png" alt="Card image cap">
             <div class="card-block">
               <h4 class="card-title">Personal Website</h4>
-              <p class="card-text">This website. Uses <code>HTML5</code>, <code>CSS3</code>, <code>AOS</code>, <code>particles.js</code>, and <code>Bootstrap</code>. Hosted on <code>Github Pages</code>.</p>
-              <p class="card-text"><small class="text-muted"><a href="https://github.com/ptumb001/ptumb001.github.io">#Source</a></small></p>
+              <p class="card-text">This website. I use this to document what I'm currently working on, as well as a "sandbox" to mess with new designs (although not all of them get published). Check out the source code <a href="https://github.com/ptumb001/ptumb001.github.io">here</a>.</p>
+
             </div>
           </div>
         </div>
@@ -208,9 +193,8 @@
             <img class="card-img-top center-block" id="sponsorship" src="img/citrushack.png" alt="Card image cap">
             <div class="card-block">
               <h4 class="card-title">API Sponsorship Lead</h4>
-              <p class="card-text"><a href="http://citrushack.com/" style="font-family: Roboto">Citrus Hack</a>
-                is a 36 hour long hackathon at UC Riverside hosted in the spring. As API Sponsorship lead, I contact API-centered companies that would have beneficial sponsorship relations with Citrus Hack. API's lead to happy hackers.</p>
-              <p class="card-text"><small class="text-muted">As fellow: July 2017 - October 2017 <br> As lead: October 2017 - Present</small></p>
+              <p class="card-text"><a href="http://citrushack.com/" >Citrus Hack</a> is a 36 hour long hackathon at UC Riverside hosted in the spring. As API Sponsorship lead, I contact API-centered companies that would have beneficial sponsorship
+                relations with Citrus Hack. API's lead to happy hackers.</p>
             </div>
           </div>
         </div>
