@@ -66,8 +66,15 @@ absoluteOffset
         {value: function(el, i) {
           return 'rgb(100,' + i * 3 +', 200)';
         }}],
+      strokeWidth: {
+        value: 6,
+        easing: 'linear',
+        duration: 400,
+        direction: 'easeOutCubic',
+        loop: true
+      },
       easing: 'linear',
-      duration: 3000,
+      duration: 2000,
       direction: 'alternate',
       loop: true
     });
