@@ -1,0 +1,61 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.avatar {
+  float: left;
+  width: 50px;
+}
+
+.profile {
+  float: left;
+  border-left: 2px solid #f05204;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+.signature-wrap {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.signature-wrap:after {
+  content: " ";
+  clear: both;
+  height: 1;
+  visibility: hidden;
+  display: block;
+}
+
+a {
+  color: #f05204;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 2.5px 0;
+}
+
+h1 {
+  font-weight: bold;
+  color: #f05204;
+  font-size: 16px;
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 14px;
+  color: #333333;
+  padding: 2.5px 0;
+  font-weight: 500;
+  margin: 0px;
+}
+
+p {
+  line-height: 15px;
+  font-size: 10px;
+  color: #333333;
+}
