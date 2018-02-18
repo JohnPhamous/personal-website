@@ -106,4 +106,8 @@ footer {
   div.p-text-wrapper {
     padding: 0 10%;
   }
+
+  body {
+    overflow-x: hidden;
+  }
 }
