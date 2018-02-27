@@ -1,0 +1,17 @@
+.col {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 270px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0 auto;
+}
+
+.project-description {
+  font-size: 12px;
+  padding: 0 10%;
+}

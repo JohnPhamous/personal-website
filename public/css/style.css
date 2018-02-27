@@ -22,48 +22,76 @@ a, a:link, a:visited {
   text-decoration: none;
 }
 
+#citrus-hack {
+  color: #f68657;
+  text-decoration: none;
+}
+
+#citrus-hack:hover{
+  color: #41d3bd;
+}
+
 #esri {
   color: #8AAD05;
+  text-decoration: none;
 }
 
 #esri:hover {
-  text-decoration: #211a1e line-through;
+  color: #f16b6f;
 }
 
 #ucr {
   color: #5bc0eb;
+  text-decoration: none;
 }
 
 #ucr:hover {
-  text-decoration: #fde74c line-through;
+  color: #efdc05;
 }
 
 #soundcloud {
   color: #f9320c;
+  text-decoration: none;
 }
 
 #soundcloud:hover {
-  text-decoration: #568D4B line-through;
+  color: #e3e36a;
 }
 
 #github {
   color: #7200da;
+  text-decoration: none;
+}
+
+#github:hover {
+  color: #aaabd3;
 }
 
 #linkedin {
   color: #ef5285;
+  text-decoration: none;
+}
+
+#linkedin:hover {
+  color: #d4df36;
 }
 
 #ig {
   color: #60c5ba;
+  text-decoration: none;
+}
+
+#ig:hover {
+  color: #ef5285;
 }
 
 #mail {
   color: #00b9f1;
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration-line: line-through;
+#mail:hover {
+  color: #feee7d;
 }
 
 hr {
