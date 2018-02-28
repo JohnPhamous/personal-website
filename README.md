@@ -1,15 +1,11 @@
-<img src="http://tumbucon.tech/img/mbp.png" height="350" width="500" ></a>
+# patricktumbucon.com
 
-# tumbucon.tech
-
-Visit the website [here](http://tumbucon.tech).
+Visit the website [here](http://patricktumbucon.com).
 
 ## Built With 
 
-* [Bootstrap v4.0.0 beta](http://getbootstrap.com/) - Front end components
-* [Animate on Scroll](https://michalsnik.github.io/aos/) - CSS animations
-* [particles.js](http://vincentgarreau.com/particles.js/) - Javascript particles
-* [Font Awesome](http://fontawesome.io/) - Icon font
+* [Wing CSS](http://getwing.ml/) - Front end components
+* [Anime.js](https://animejs.com) - CSS animations
 
 ## License
 
