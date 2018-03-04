@@ -9,6 +9,10 @@ app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname + '/index.html'))
 });
 
+app.get('/projects', function(req, res) {
+  res.sendFile(path.join(__dirname + '/views/projects.html'))
+});
+
 app.get('/emailsignatures', function(req, res) {
   res.sendFile(path.join(__dirname + '/views/emailsignatures.html'))
 });

@@ -3,15 +3,36 @@
   border-radius: 10px;
 }
 
+.row {
+  margin: 5% 0;
+}
+
 .project-image {
   width: 100%;
-  max-height: 270px;
+  max-height: 75%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   margin: 0 auto;
 }
 
 .project-description {
-  font-size: 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1em; 
   padding: 0 10%;
+}
+
+.project-header {
+  padding: 0 10%;
+  font-weight: 700;
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+
+.col {
+  text-align: left;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .col {
+    margin-bottom: 20px !important;
+  }
 }

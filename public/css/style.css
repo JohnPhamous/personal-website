@@ -3,10 +3,20 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+.nav-logo {
+  border: 1px solid black;
+  margin-right: 50%;
+}
+
+.nav-item {
+  color: #84b1ed;
+  font-weight: 700;
+}
+
 header {
-  padding-top: 10vh;
   color: #211a1e;
 }
+
 
 h1, h2, h4 {
 /* CSS Reset from wing */
@@ -114,6 +124,14 @@ p {
   font-size: 0.75em;
 }
 
+.fixed {
+  position: fixed;
+}
+
+.row {
+  padding: 0 10%;
+}
+
 .form {
   margin: 10% 10%;
 }
@@ -137,5 +155,9 @@ footer {
 
   body {
     overflow-x: hidden;
+  }
+
+  .nav-logo {
+    margin: 10%;
   }
 }
