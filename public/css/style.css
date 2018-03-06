@@ -32,6 +32,15 @@ a, a:link, a:visited {
   text-decoration: none;
 }
 
+#acm {
+  color: #8F2D56;
+  text-decoration: none;
+}
+
+#acm:hover {
+  color: #67d5b5;
+}
+
 #citrus-hack {
   color: #f68657;
   text-decoration: none;
